@@ -12,14 +12,14 @@ class DadJoke extends Command
      *
      * @var string
      */
-    protected $signature = 'command:dadjoke';
+    protected $signature = 'dadjoke';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command for fetching a dadjoke.';
+    protected $description = 'Display a dadjoke.';
 
     /**
      * Create a new command instance.
