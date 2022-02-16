@@ -44,7 +44,9 @@ class DadJoke extends Command
         ])
         ->get('https://icanhazdadjoke.com/');
 
-        echo  $joke['joke'] . "\n" ;
+        $this->info($joke['joke']);
+
+        // echo  $joke['joke'] . "\n" ;
 
     }
 }
